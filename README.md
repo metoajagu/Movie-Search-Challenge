@@ -1,4 +1,4 @@
-# Movie-Search-Challenge
+`# Movie-Search-Challenge
 A React-built movie search website that allows users to search for popular movies 
 
 
@@ -10,10 +10,18 @@ A React-built movie search website that allows users to search for popular movie
 	3.	Run 'npm start' in your terminal and open the app in your web browser
  	4. 	Enter in a movie of your choice, press the search button and click a movie to read more about it
 
-  [Discrepancies:]
+
+
+
+
+
+-------------------------------
+  								[Discrepancies:]
+  
   	* When you search a movie the movies appear twice this doesn't effect the functionality but gives a poorer user experience
 
    [Possible Solution:] 
+   
    	*  Review code logic, I might have mixed the logic up b/c there are moments when the search results appear once
     	   but when you go back to the search it appears twice again
 -------------------------
@@ -21,5 +29,6 @@ A React-built movie search website that allows users to search for popular movie
  	  showing details hides all search results and only shows the details for the movie the user selected
     
    [Possible Solution:] 
+   
    	* Review the MovieList component I think I implemented the functionality of hiding the search results on the wrong page, it should be
     	  in the movie list component where the search results showing or not are changed.
