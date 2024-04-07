@@ -28,11 +28,157 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body { 
+  background-color:#282c34;
+}
+
+p {
+  display:flex;
+  color: white;
+  font-weight: bolder;
+  margin: 0;
+}
+ h1, .movie-title {
+  color: white;
+}
+
+h2{
+  font-size: x-large;
+  color: white;
+}
+
+Link {
+  color:white;
+}
+
+.search-button {
+  width: 40px;
+  height: 35px;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  transition: opacity 1s ease;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  opacity: 0.5  ;
+}
+img {
+  border-radius: 25px;
+}
+.search-img {
+  width: 15px;
+  height: 20px;
+}
+
+.movie-search {
+  display:inline;
+  justify-content:center;
+}
+html {
+  padding: 200px;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.search-input {
+  display: inline;
+  width: 100%;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.type-details {
+  text-transform: uppercase;
+}
+
+.movies-grids{
+  display: grid;
+  grid-template-columns: 315px 315px 315px ;
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.movie {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.movie-title{
+  display: flex;
+  flex-direction: column;
+  height: 5em;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+
+}
+
+.movie-img:hover {
+  opacity: 0.5;
+  background-color: white;
+}
+
+.movie-details {
+  border-style: solid;
+  border: 1px;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.back-search {
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-weight: lighter;
+  margin-right: 90%;
+}
+
+.back-search {
+  transition: opacity 1s ease;
+  background-color: white;
+}
+.back-search:hover {
+  opacity: 0.5;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.created-by {
+  display: inline;
+  width: 50%;
+  font-weight: lighter;
+  border-style: solid;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+}
+
+.home {
+  padding: 0px;
 }
