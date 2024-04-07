@@ -22,26 +22,6 @@ const Detail = ({ movies }) => {
       console.error("Fetching movie details failed", error);
     } 
   }
- 
-  // const handleSearch = async () => {
-  //   try {
-  //     const response = await fetch(`${API_URL}&s=${searchQuery}`);
-  //     const data = await response.json();
-  //     setSearchResults(data.Search || []);
-  //     if (data.Search && data.Search.length > 0) {
-  //       const movieId = data.Search[0].imdbID;
-  //       const movieResponse = await fetch(`${API_URL_DETAIL}&i=${movieId}`);
-  //       const movieData = await movieResponse.json();
-  //       setMovieDetails(movieData);
-  //     } else {
-  //       console.log("No search results found");
-  //       setMovieDetails({});
-  //     }
-      
-  //   } catch (error) {
-  //     console.error("Fetching search results failed", error);
-  //   }
-  // }
 
   const handleMovieClick = () => {
     setShowSearchResults(false);
